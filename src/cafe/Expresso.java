@@ -20,7 +20,7 @@ public class Expresso implements Drink {
 
     @Override
     public BigDecimal price() {
-        return new BigDecimal(2.80);
+        return new BigDecimal(25);
     }
     
     

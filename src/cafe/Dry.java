@@ -24,4 +24,9 @@ public class Dry extends Decorator {
     public BigDecimal price() {
         return new BigDecimal(4.90);
     }
+
+    @Override
+    BigDecimal additionalPrice() {
+        return new BigDecimal(5.5);
+    }
 }

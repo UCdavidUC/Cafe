@@ -22,6 +22,11 @@ public class Whipped extends Decorator {
 
     @Override
     public BigDecimal price() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return new BigDecimal(5.5);
+    }
+
+    @Override
+    BigDecimal additionalPrice() {
+        return new BigDecimal(5.5);
     }
 }

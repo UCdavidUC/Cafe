@@ -5,6 +5,8 @@
  */
 package cafe;
 
+import java.text.NumberFormat;
+
 /**
  *
  * @author David
@@ -17,6 +19,7 @@ public class Main {
     public static void main(String[] args) {
         Drink coffee = new Dry(new Whipped(new Capuccino()));
         System.out.println(coffee.description());
+        System.out.println(coffee.price().doubleValue());
     }
     
 }

@@ -20,7 +20,7 @@ public class CafeLatte implements Drink {
 
     @Override
     public BigDecimal price() {
-        return new BigDecimal(2.8);
+        return new BigDecimal(35);
     }
     
 }
