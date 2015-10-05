@@ -5,6 +5,8 @@
  */
 package cafe;
 
+import java.math.BigDecimal;
+
 /**
  *
  * @author David
@@ -16,5 +18,10 @@ public class Whipped extends Decorator {
     @Override
     String condiments() {
         return "Whipped";
+    }
+
+    @Override
+    public BigDecimal price() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

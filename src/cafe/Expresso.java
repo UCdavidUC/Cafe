@@ -5,6 +5,8 @@
  */
 package cafe;
 
+import java.math.BigDecimal;
+
 /**
  *
  * @author David
@@ -14,6 +16,11 @@ public class Expresso implements Drink {
     @Override
     public String description() {
         return "Expresso";
+    }
+
+    @Override
+    public BigDecimal price() {
+        return new BigDecimal(2.80);
     }
     
     
